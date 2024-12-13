@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="https://kit.fontawesome.com/bbefcee203.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">&lt;/&gt; Md Sumon</div>
+
+    <ul id="menuList">
+      <li><a href="/">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Services</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="./files/Sumon_CV_2025.pdf" download="Sumon_Mahmud.pdf" class="btn">Get CV</a></li>
+
+
+    </ul>
+
+    <span onclick="openMenu()">
+      <i class="fa-solid fa-bars"></i>
+    </span>
+  </nav>
+
+  <main>
+    <section class="hero-section">
+      <div class="left">
+        <div class="left-title">
+          <h1>Sumon Mahmud</h1>
+          <h2>I'm <strong id="element"></strong></h2>
+          <p>
+            This website 100% Responsive for all devices, Seo Friendly and Fast
+          </p>
+          <button class="btn">Get Started</button>
+        </div>
+      </div>
+      <div class="right">
+        <img src="./img/hero_img.jpg" alt="hero-img" width="100%" />
+      </div>
+    </section>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Front-end Developer",
+          "Backend Developer",
+          "Youtuber",
+          "Writer",
+        ], // Add your strings here
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true, // To repeat the typing animation
+      });
+    </script>
+
+    <!-- Section Title Here -->
+
+    <center style="margin-top: 50px; margin-bottom: 50px;">
+      <h3 style="font-size: 22px">About Me!</h3>
+      <br />
+      <hr />
+    </center>
+
+    <section class="about-me hero-section" id="about">
+      <div class="left">
+        <img src="./img/about.jpg" alt="hero-img" width="100%" />
+      </div>
+      </div>
+      <div class="right">
+        <div class="about-text">
+          <h1>Sumon Mahmud</h1>
+          <br>
+          <hr>
+          <br>
+          Technical Skills:
+          <p>
+            • Frontend: HTML, CSS, JavaScript, React Js.
+            • Backend: JavaScript (Node Js) , Php, Python Django.
+            • Web Development: CSS, Bootstrap, API Development, CRUD Operations, User Authorization, JSON Web Token
+            (JWT), Express.js, Mongoose, DotEnv, Git, Version Control.
+            • Databases: MySQL & MongoDB.
+            • Version Control: Git, GitHub.
+            • Design & Prototyping: Figma.
+
+          </p>
+          <hr>
+          <br>
+          <div class="social-media">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Section Title Here -->
+
+    <center style="margin-bottom: 50px; margin-top: 50px;">
+      <h3 style="font-size: 22px">My Projects</h3>
+      <br />
+      <hr />
+    </center>
+    <section class="projects" id="projects">
+      <div class="card">
+        <div class="card-body">
+          <img src="./img/hero_img.jpg" alt="card-img" width="100%" />
+          <h5>Card Title</h5>
+          <p>card Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <img src="./img/hero_img.jpg" alt="card-img" width="100%" />
+          <h5>Card Title2</h5>
+          <p>card Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <img src="./img/hero_img.jpg" alt="card-img" width="100%" />
+          <h5>Card Title3</h5>
+          <p>card Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <img src="./img/hero_img.jpg" alt="card-img" width="100%" />
+          <h5>Card Title4</h5>
+          <p>card Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <img src="./img/hero_img.jpg" alt="card-img" width="100%" />
+          <h5>Card Title5</h5>
+          <p>card Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <img src="./img/hero_img.jpg" alt="card-img" width="100%" />
+          <h5>Card Title6</h5>
+          <p>card Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
