@@ -15,7 +15,7 @@ html {
 
 /* Define Colors */
 :root {
-  --primary: #3514f1;
+  --primary: #ff735c;
   --dark: #111;
   --light: #fff;
   --form: #e5e5e5;
@@ -127,7 +127,7 @@ span {
 }
 
 .projects {
-  height: 100vh;
+  
   padding: .5rem 5rem;
   display: flex;
   align-items: center;
@@ -169,7 +169,7 @@ span {
   padding-top: 5rem;
   padding-bottom: 5rem;
   display: flex;
-  background-color: var(--dark);
+  background-color: var(--primary);
 }
 
 .about-me img {
@@ -214,7 +214,7 @@ form{
 .contact-form {
   height: 500px;
   width: 600px;
-  padding: 2rem;
+  padding: 4rem 2rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   display: flex;
   justify-content: center;
@@ -258,7 +258,27 @@ form{
 }
 
 
+/* Footer Section Design */
 
+footer{
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 50px;
+  background-color: var(--primary);
+
+}
+
+footer .footer-left{
+  color: var(--light);
+}
+
+.quick-menu a{
+  color: var(--light);
+  padding: 0px 10px;
+}
 
 
 
@@ -366,7 +386,7 @@ form{
     padding-bottom: 1rem;
     gap: 10px;
     display: flex;
-    background-color: var(--dark);
+    background-color: var(--primary);
   }
 
   .about-text {
@@ -429,11 +449,36 @@ form{
 }
 
 .contact-map {
-  height: 500px;
+  height: 100%;
   width: 300px;
   display: flex;
   justify-content: center;
+  margin-bottom: 4rem;
   align-items: center;
+}
+
+
+/* Footer Section */
+
+footer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+}
+
+footer .footer-left{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.quick-menu{
+  display: flex;
+  align-items: center;
+}
+.quick-menu a{
+  padding: 10px 5px;
 }
 
 }
